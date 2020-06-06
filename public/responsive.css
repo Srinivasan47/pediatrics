@@ -1,0 +1,1635 @@
+@media(min-width: 320px) and (max-width: 767px) 
+{
+    .electronic-signature
+    {
+        width:95%;
+    }
+	/***signup***/
+.signup-form h1 {
+    font-size: 25px;
+    line-height: 45px;
+}
+.signup-form .pediatric-signup {
+    width: 255px;
+    padding: 10px;
+}
+.pediatric-form .pediatric-signup .col-ps-6 {
+    width: 80%;
+	margin-bottom: 20px;
+}
+.signup-form {
+    height: auto;
+}
+.pediatric-form .pediatric-signup .col-ps-6 label {
+    font-size: 14px;
+}
+.pediatric-form .pediatric-signup .col-ps-6 input {
+    font-size: 14px;  
+	line-height: 20px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.lastname .text-box:after,.pediatric-form .pediatric-signup .col-ps-6.firstname .text-box:after {
+    top: 4px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.mobile .text-box:after,.pediatric-form .pediatric-signup .col-ps-6.emailid .text-box:after {
+    top: 8px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.password .text-box:after,.pediatric-form .pediatric-signup .col-ps-6.confirm .text-box:after {
+    top: -2px;
+}
+.pediatric-form .pediatric-signup .col-ps-12 .signup {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 13px 30px 13px 30px;
+	    margin-bottom: 15px;
+    display: inline-block;
+}
+.signin-option {
+    font-size: 14px;
+    line-height: 25px;
+}
+/***signup end***/
+/***login start***/
+.login-form .pediatric-login .col-pl-12 .back
+{
+    display:block;
+    width:100%;
+    box-sizing: border-box;
+}
+.login-form .pediatric-form {
+    width: 255px;
+}
+.login-form h1 {
+    font-size: 25px;
+    line-height: 45px;
+    padding-top: 50px;
+}
+.login-form .pediatric-login {
+    padding: 30px 20px 30px 20px;
+}
+.login-form .pediatric-login .col-pl-12 input {
+    font-size: 14px;
+    padding: 10px 44px 10px 10px;
+    width: 76%;
+}
+.login-form {
+    height: auto;
+}
+.login-form .pediatric-login .col-pl-12 label {
+    font-size: 14px;
+}
+.login-form .pediatric-login .col-pl-12 .login {
+    font-size: 16px;
+    line-height: 36px;
+    padding: 15px 40px 14px 40px;
+}
+.login-form .pediatric-login .forgot-password {
+    font-size: 15px;
+}
+.login-form .account-signup {
+    padding: 15px 10px;
+    margin-top: 25px;
+}
+.login-form .account-signup p {
+    font-size: 14px;
+    line-height: 28px;
+}
+/***login end***/
+/***profile-start***/
+.profile-form {
+    width: 85%;
+}
+.profile-form h1 {
+    font-size: 28px;
+    line-height: 55px;
+    margin-top: 19px;
+    margin-bottom: 15px;
+}
+.profile-form .pediatric-profile .col-ps-6 {
+    width: 100%;
+    padding: 0px 0px;
+    margin-bottom: 25px;
+}
+.profile-form .pediatric-profile .col-ps-6 label {
+    font-size: 14px;
+}
+.footer-section .pediatric-footer .about {
+    width: 100%;
+    display: block;
+    float: none;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-bottom:20px;
+}
+.container{
+width:90%;
+max-width:90%;
+}
+.footer-section .pediatric-footer {
+    display: block;
+}
+.logo-section img {
+    width: 160px;
+}
+.header-section .login-section {
+    float: right;
+}
+.profile-form .pediatric-profile .col-ps-6 input {
+    font-size: 14px;
+    padding: 10px 23px 10px 10px;
+    width: -webkit-fill-available;
+}
+.footer-section .pediatric-footer .about p {
+    font-size: 12px;
+    line-height: 21px;
+}
+.footer-section .pediatric-footer .menu ,.footer-section .pediatric-footer .reach-us,.footer-section .pediatric-footer .phone-number,{
+    width: 100%;
+    float: left;
+}
+/***profile-end***/
+/*index*/
+.form-service
+{
+ padding:30px 0px 30px 0px;
+}
+.form-service h2
+{
+    font-size: 21px;
+    line-height: 23px;
+    margin-bottom:15px;
+}
+.form-service h4 
+{
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom:15px;
+}
+.form-service p
+{
+    font-size: 13px;
+    line-height: 22px;
+}
+.form-features
+{
+    padding:30px 0px 30px 0px;
+}
+.header-banner .banner-section .believe h1
+{
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom:20px;
+}
+.form-features h2
+{
+    font-size: 21px;
+    line-height: 33px;
+    text-align: left;
+    margin-bottom:15px;
+}
+.form-features p
+{
+    font-size: 13px;
+    line-height: 23px;
+    text-align: left;
+}
+.form-features .introduction .abstract
+{
+    width:100%;
+    padding:0px;
+    margin-bottom:15px;
+}
+.form-features .introduction .abstract h3
+{
+    font-family: 'poppinsregular';
+    font-size: 18px;
+    line-height: 29px;
+    text-align: left;
+}
+.form-features .introduction .abstract p
+{
+    text-align: left;
+}
+.plans .multiple-plans .multiple-forms
+{
+    width:100%;
+    margin:0px;
+    padding:31px 25px 38px 25px;
+    margin-bottom:20px;
+}
+.plans
+{
+    padding:30px 0px 30px 0px;
+}
+.footer-section .pediatric-footer .menu, .footer-section .pediatric-footer .reach-us
+{
+    width:100%;
+    padding-right:0px;
+    margin-right:0px;
+    margin-bottom:20px;
+}
+.footer-section .pediatric-footer .phone-number
+{
+    width:100%;
+    padding-right:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+}
+.footer-section .pediatric-footer .menu::after, .footer-section .pediatric-footer .reach-us:after, .footer-section .pediatric-footer .about:after
+{
+    border:none;
+}
+.plans .multiple-plans .multiple-forms h3
+{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom:20px;
+    
+}
+.plans .multiple-plans .multiple-forms h2
+{
+    font-size: 44px;
+    text-align: center;
+}
+.plans .multiple-plans .multiple-forms ul li
+{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.plans .multiple-plans .multiple-forms .signup-poriton
+{
+    margin-top: 33px;
+}
+.plans .multiple-plans .multiple-forms .sign-up
+{
+    font-size: 16px;
+    font-family: 'poppinsregular';
+    padding: 9px 36px;
+}
+.footer-section
+{
+    padding:30px 0px;
+}
+.footer-section .pediatric-footer .menu ul li, .footer-section .pediatric-footer .reach-us ul li 
+{
+  display:inline-block;
+}
+.footer-section .pediatric-footer .menu ul li a, .footer-section .pediatric-footer .reach-us ul li a
+{
+    font-size: 13px;
+    line-height: 23px;
+    padding-right: 15px;
+}
+.footer-section .pediatric-footer .menu h3, .footer-section .pediatric-footer .reach-us h3
+{
+    margin-bottom:0px;
+    font-size: 14px;
+}
+.footer-section .pediatric-footer .phone-number h3
+{
+    font-size: 14px;
+    margin-bottom:0px;
+}
+
+.footer-section .pediatric-footer .phone-number ul li a
+{
+    font-size: 12px;
+    line-height: 23px;
+}
+.footer-section .pediatric-footer .phone-number h3.follow-us {
+    margin-top: 15px;
+}
+.copy-right {
+    padding: 15px 0px 15px 0px;
+}
+.copy-right p
+{
+    font-size: 13px;
+    text-align: center;
+}
+.header-banner .banner-section .believe p
+{
+    font-size: 14px;
+    line-height: 23px;
+}
+.header-banner .banner-section
+{
+    margin-top:20px;
+}
+.header-banner .banner-section .believe a
+{
+    font-size: 13px;
+    padding: 10px 26px 10px 23px;
+}
+.header-banner .banner-section .believe
+{
+    padding-bottom:30px;
+}
+/*index*/
+/*payment*/
+.payment .payment-details
+{
+    width:80%;
+    margin:0 auto;
+    padding:15px;
+}
+.payment
+{
+    padding: 0px 0px;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment .payment-details .form-group .col-pay-6-left {
+    width: 46%;
+}
+.payment .payment-details .form-group .col-pay-6-right {
+    width: 46%;
+}
+.payment .payment-details .payment-button .money
+{
+    font-size: 18px;
+    padding: 10px 35px 10px 35px;
+}
+/*payment*/
+/*child-details*/
+.child-form.view-child-form {
+    width: 85%;
+}
+.pediatric-profile.view-child .firstname.nameval, .pediatric-profile.view-child .lastname.nameval, .pediatric-profile.view-child .firstname.nameval, .pediatric-profile.view-child .state.nameval, .pediatric-profile.view-child .firstname.nameval, .pediatric-profile.view-child .state.nameval, .pediatric-profile.view-child .country.nameval, .pediatric-profile.view-child .city.nameval
+{
+    width:100%;
+}
+.pediatric-profile.view-child .dateofbirth.nameval, .pediatric-profile.view-child .schoolname.nameval
+{
+    width:100%;
+}
+.pediatric-profile.view-child .nameval .text-box input, .pediatric-profile.view-child .schoolname.nameval .text-box input, .pediatric-profile.view-child .dateofbirth.nameval .text-box input, .nameval .text-box select
+{
+    width:-webkit-fill-available;
+}
+.sel
+{
+    width:100%;
+}
+.child-form h2
+{
+    font-size: 28px;
+    line-height: 38px;
+    font-family: 'poppinsregular';
+}
+.medical.nameval-One, .med-name.nameval-2, .nameval-1
+{
+    width:100%;
+}
+.med-name.nameval-2 input, .nameval-1 input
+{
+    width:-webkit-fill-available;
+}
+.nameval
+{
+    margin-top:20px;
+    width:100%;
+}
+.header-section .pediatrics-header
+{
+    display: flex;
+    align-items: center;
+}
+.header-section .pediatrics-header .logo-section img
+{
+    width:100%;
+}
+.header-section .login-section .drop-down
+{
+    width:130px;
+}
+.header-section .login-section .sel::before {
+    right: -5px;
+}
+.header-section .login-section  .sel.active .sel__box
+{
+    left:auto;
+    right:0px;
+}
+/*child-details*/
+/*manage-subcription*/
+.plans-subscription .multiple-plans .multiple-forms
+{
+    width:100%;
+    margin:0px;
+    padding: 31px 20px 52px 20px;
+    margin-bottom:30px;
+}
+.plans-subscription .multiple-plans .multiple-forms:last-child
+{
+    margin-bottom:0px;
+}
+.plans-subscription .multiple-plans .multiple-forms h3
+{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.plans-subscription .multiple-plans .multiple-forms h2
+{
+    font-size: 38px;
+    text-align: center;
+}
+.plans-subscription .multiple-plans .multiple-forms ul li
+{
+    font-size: 13px;
+    margin-bottom:5px;
+}
+.plans-subscription .multiple-plans .multiple-forms .sign-up
+{
+    font-size: 16px;
+    padding: 10px 22px 10px 22px;
+}
+.plans-subscription .multiple-plans .multiple-forms .signup-poriton
+{
+    margin-top:30px;
+}
+/*manage-subcription*/
+/*add-child*/
+.child-form
+{
+    width:85%;
+}
+.nameval .text-box input, .schoolname.nameval .text-box input
+{
+    width:-webkit-fill-available;
+}
+.child-form .submit-btn a.submit
+{
+    margin-bottom:20px;
+}
+.child-form .submit-btn a.cancel
+{
+    font-size: 16px;
+    line-height: 25px;
+    padding: 4px 25px 4px 25px;
+    border-radius:5px;
+    font-family: 'poppinsregular';
+    font-weight:100;
+}
+/*add-child*/
+/*create-form*/
+.myfamily-form .select-location .parent-family {
+    background: transparent;
+    opacity: 1;
+    padding: 18px 0px 17px 0px;
+}
+.myfamily-form .select-location .parent-family ul li k, .myfamily-form .select-location .review-details ul li k
+{
+    display:none;
+}
+.myfamily-form .select-location .parent-family ul li, .myfamily-form .select-location .review-details ul li
+{
+    width:18%;
+    display:inline-block;
+    padding:0px;
+    position: relative;
+}
+.myfamily-form .select-location .review-details ul li.current::before
+{
+    background:none;
+}
+.myfamily-form .select-location .review-details ul li:first-child
+{
+    padding-right:0px;
+}
+.myfamily-form .select-location .parent-family ul li::before, .myfamily-form .select-location .review-details ul li:before
+{
+    width:0px;
+    height:0px;
+}
+.myfamily-form .select-location .parent-family ul li .mobile, .myfamily-form .select-location .review-details ul li .mobile
+{
+    padding:0px;
+    width:10px;
+    height:10px;
+    margin:0 auto;
+    border-radius:50%;
+    border:2px solid rgba(112, 108, 97, 0.5);
+    background:#fff;
+    z-index: 2;
+    
+}
+.myfamily-form .select-location .parent-family ul li:last-child .mobile::after, .myfamily-form .select-location .review-details ul li:last-child .mobile:after
+{
+    background: none;
+}
+.myfamily-form .select-location .parent-family ul li .mobile::after, .myfamily-form .select-location .review-details ul li .mobile:after
+{
+    content:"";
+    position:absolute;
+    width: 100%;
+    height: 1px;
+    left: 56%;
+    right: 0px;
+    top: 6px;
+    background: rgba(112, 108, 97, 0.5);
+}
+
+.myfamily-form .select-location .parent-family ul li:last-child .mobile::before, .myfamily-form .select-location .review-details ul li:last-child .mobile:before
+{
+    background:none;
+}
+
+.myfamily-form .select-location .parent-family ul li:last-child, .myfamily-form .select-location .review-details ul li:last-child
+{
+    padding:0px;
+}
+.myfamily-form .select-location .parent-family ul li.completed .mobile, .myfamily-form .select-location .review-details ul li.completed .mobile
+{
+    width:15px;
+    height:15px;
+    border:2px solid rgba(112, 108, 97, 1);
+    background:#fff;
+    
+}
+.myfamily-form .select-location .parent-family ul li.completed .mobile:before, .myfamily-form .select-location .review-details ul li.completed .mobile:before
+{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 4px;
+    top: 6px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    border-left: 2px solid rgba(112, 108, 97, 1);
+    border-bottom: 2px solid rgba(112, 108, 97, 1);
+    transform: rotate(-62deg);
+    background: #fff;
+}
+.myfamily-form .select-location .parent-family ul li.process .mobile, .myfamily-form .select-location .review-details ul li.process .mobile
+{
+    border:2px solid rgba(112, 108, 97, 1);
+}
+.myfamily-form .select-location .parent-family ul li.completed .mobile::after, .myfamily-form .select-location .review-details ul li.completed .mobile:after
+{
+    top: 8px;
+}
+.school-popup .modal-wrapper
+{
+    width:80%;
+    left:0px;
+    right:0px;
+    margin:0 auto;
+    padding: 25px 15px;
+}
+
+
+.select-location .state-country
+{
+    padding:20px 20px;
+}
+.myfamily-form {
+    padding: 13px 0px 20px 0px;
+}
+.select-location .state-country .col-ff-12 .col-ff-4
+{
+    width:100%;
+    padding-right:0px;
+    margin-bottom:20px;
+}
+.select-location .state-country .col-ff-12 .col-ff-8
+{
+    width:100%;
+    padding-right:0px;
+}
+.select-location .state-country .col-ff-12 .col-ff-4 label
+{
+    margin-bottom:4px;
+    font-size: 14px;
+}
+.myfamily-form .asthma-action .col-ff-12 .action-plan
+{
+ padding:15px 20px 16px 20px;
+ width:100%;
+ box-sizing: border-box;
+}
+.myfamily-form .asthma-action {
+    padding: 26px 0px;
+}
+.myfamily-form .asthma-action .col-ff-12 .action-plan h1
+{
+    font-size: 17px;
+    line-height: 25px;
+}
+.select-location .col-ff-12.name-birth .col-ff-4
+{
+    width:100%;
+    margin-right:0px;
+    margin-bottom:20px;
+}
+.select-location .col-ff-12.severity.triggers ul li
+{
+    width:49%;
+    margin-bottom:4px;
+    padding-right:0px;
+}
+.select-location .medication .col-ff-3
+{
+    width:100%;
+    padding-right:0px;
+}
+.select-location .medication .col-ff-2, .select-location .medication.route .col-ff-3, .select-location .medication.emergency .col-ff-3, .select-location .medication.emergency .col-ff-2
+{
+    width:100%;
+    padding-right:0px;
+}
+.select-location .medication.route .col-ff-2
+{
+    width:100%;
+    padding-right:0px;
+}
+.select-location .col-ff-12.severity ul li.text-box
+{
+    width:100%;
+}
+.select-location .col-ff-12.name-birth .col-ff-4 label, .select-location .medication label
+{
+    margin-bottom:4px;
+    font-size: 14px;
+}
+.select-location .col-ff-12.name-birth, .select-location .col-ff-12.severity
+{
+    padding:20px 0px;
+}
+.select-location .effective .col-ff-4
+{
+    width:100%;
+    margin-right:0px;
+    margin-bottom:20px;
+}
+.select-location .col-ff-12.severity.triggers ul li:nth-last-child(2)
+{
+    padding-right:0px;
+}
+.select-location .effective label
+{
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom:4px;
+}
+.select-location .effective span
+{
+    padding-left:0px;
+}
+.select-location .asthma-plan .effective .col-ff-4 
+{
+    width: 46%;
+    margin-right: 10px;
+}
+.select-location .asthma-plan .effective .col-ff-4 label
+{
+    margin-bottom:4px;
+}
+.select-location .green-zone
+{
+    margin:20px 0px;
+    font-size: 14px;
+}
+.select-location .all-these h3
+{
+    text-align: left;
+}
+.select-location .all-these span
+{
+    text-align: left;
+    margin-bottom:10px;
+}
+.select-location .all-these p
+{
+    text-align: left;
+    line-height: 30px;
+}
+.select-location .medication .col-ff-3
+{
+    margin-bottom:20px;
+}
+.select-location .medication .col-ff-2.dose-section, .select-location .medication .col-ff-2.route-section, .select-location .medication .col-ff-2.frequency-section, .select-location .medication .col-ff-2.self.administer
+{
+ width:46%;
+ padding-right:10px;
+ margin-bottom:20px;
+}
+.select-location .medication .col-ff-2.side.effects label span
+{
+    display: inline-block;
+}
+.select-location .dose .exercise-zone h4
+{
+    margin-top:0px;
+    text-align: left;
+}
+.select-location .dose .exercise-zone ul li
+{
+    text-align: left;
+    line-height: 23px;
+    display: block;
+}
+.select-location .medication .col-ff-2.self.administer label
+{
+    margin-bottom:10px;
+}
+.select-location .medication .col-ff-2.self.administer label span, .select-location .medication .col-ff-2.self.carry  label span
+{
+    display:inline-block;
+}
+.select-location .medication.route .col-ff-2.self.administer, .select-location .medication.emergency .col-ff-2.self.administer
+{
+    clear:left;
+}
+.select-location .medication.route .col-ff-2.self.carry, .select-location .medication .col-ff-2.self.carry
+{
+    width:49%;
+}
+.select-location .all-these p.flow-between, .select-location .all-these p.personal-best
+{
+    line-height: 40px;
+}
+.select-location .continue-button a.continue
+{
+    font-size: 14px;
+    padding:10px 20px 11px 20px;
+}
+.select-location .continue-button
+{
+    padding-top:30px;
+}
+.select-location .continue-button a.cancel
+{
+    font-size: 14px;
+}
+.select-location .red-zone, .select-location .section-one, .select-location .yellow-zone
+{
+    font-size: 14px;
+}
+/*medication*/
+.select-location .authoisation
+{
+    padding:24px 20px 34px 20px;
+}
+.select-location .authoisation h3
+{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+.select-location .authoisation p
+{
+    text-align: left;
+}
+.medication-administration .name-date .col-ff-4,  .medication-administration .condition-being-treated .col-ff-3, .medication-administration .condition-being-treated .col-ff-2, .medication-administration .prescriber-details .col-ff-4, .medication-administration .prescriber-signature .col-ff-4
+{
+    width:100%;
+    margin-right:0px;
+    margin-bottom:20px;
+}
+.medication-administration .name-date.from-to .col-ff-4
+{
+ width:47%;
+ padding-right:10px;
+}
+.medication-administration .signatures p, .medication-administration .guardian p
+{
+    padding:0px;
+    text-align: left;
+}
+.medication-administration .prescriber-signature .col-ff-4
+{
+    width:100%;
+    margin-right:0px;
+}
+.select-location .col-ff-12.severity label
+{
+    font-size: 14px;
+    margin-bottom:10px;
+}
+.medication-administration .name-date .col-ff-4 label, .medication-administration .condition-being-treated label
+{
+    margin-bottom:4px;
+    font-size: 14px;
+}
+.medication-administration .administrated
+{
+    padding:20px 0px;
+}
+.medication-administration .condition-being-treated .dose-section, .medication-administration .condition-being-treated .route-section, .medication-administration .condition-being-treated .frequency-section, .medication-administration .condition-being-treated .administer.yes-no, .medication-administration .condition-being-treated .carry.yes-no, .medication-administration .condition-being-treated .emergency.medication
+{
+    width:46%;
+    padding-right:10px;
+    min-height: 70px;
+}
+.medication-administration .condition-being-treated .administer.yes-no label span, .medication-administration .condition-being-treated .carry.yes-no label span, .medication-administration .condition-being-treated .emergency.medication label span
+{
+ display:inline-block;
+}
+.medication-administration .prescriber-details .col-ff-4 label, .medication-administration .prescriber-details .col-ff-8 label
+{
+    margin-bottom:4px;
+    font-size: 14px;
+}
+.medication-administration .prescriber-details .col-ff-4.telephone, .medication-administration .prescriber-details .col-ff-4.fax
+{
+    width:47.2%;
+    padding-right:10px;
+}
+.medication-administration .prescriber-details .col-ff-8
+{
+    width:100%;
+}
+.medication-administration .prescriber-signature
+{
+    padding-top:15px;
+}
+.medication-administration .prescriber-signature .col-ff-4.parent label span
+{
+    display:inline-block;
+}
+.medication-administration .prescriber-signature .col-ff-4 label
+{
+    margin-bottom:4px;
+    font-size: 14px;
+}
+.medication-administration .prescriber-signature .col-ff-4 label span
+{
+    display:inline-block;
+}
+.medication-administration .condition-being-treated .col-ff-3.prn-para label span
+{
+    display:inline-block;
+}
+.select-location.view-form .state-country p.request
+{
+    padding-left:0px;
+    padding-right:0px;
+}
+.select-location .camp-operator .pescriber-approval .col-ff-2
+{
+    width:100%;
+    margin-right:0px;
+}
+.select-location .camp-operator .pescriber-approval .col-ff-2 label
+{
+    font-size: 14px;
+    margin-bottom:4px;
+}
+.select-location .camp-operator .pescriber-approval label
+{
+    font-size: 14px;
+    margin-bottom:4px;
+}
+/*medication*/
+.select-location .state-country h3
+{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+}
+.select-location .state-country p.request
+{
+    text-align: left;
+}
+.select-location .state-country .col-ff-12 .col-ff-4.pickup label span
+{
+    display:inline-block;
+}
+.select-location .state-country p.terms label::before
+{
+    left:0px;
+}
+.select-location .state-country p.terms input[type="checkbox"]:checked + label::after
+{
+    left:4px;
+}
+.select-location .state-country p.terms label
+{
+    padding-left:20px;
+    padding-right:0px;
+}
+.select-location .state-country p.typing
+{
+    line-height: 20px;
+    text-align: left;
+    margin:0px;
+}
+/*create-form*/
+/*parent-post-login*/
+.parent-SecTwo h2
+{
+    font-size: 26px;
+    line-height: 38px;
+    padding:20px 0px;
+    width:100%;
+}
+.parent-SecThree h2
+{
+    width:100%;
+    font-size: 22px;
+    line-height: 31px;
+}
+.parent-SecThree
+{
+    padding:20px 0px;
+}
+.parent-SecThree p
+{
+    font-size: 14px;
+    line-height: 24px;
+    width:100%;
+}
+.parent-SecFour
+{
+    padding:20px 0px;
+}
+.parent-SecFour h3, .parent-SecFive h3
+{
+    font-size: 27px;
+    line-height: 38px;
+}
+.add-New p
+{
+    margin:0px;
+}
+.table-form td, .table-form th
+{
+    padding-left:15px;
+}
+  .form-Family
+  {
+      margin-bottom:15px;
+  }
+  .parent-SecFive
+  {
+      padding:20px 0px;
+  }
+  table.form-Details td, table.form-Details th
+  {
+      width:100%;
+  }
+
+  .parent-SecFour table thead, .parent-SecFive table thead
+{
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .parent-SecFour table tr, .parent-SecFive table tr
+  {
+    border: 0.5px solid rgba(68, 68, 68, 0.4);
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .parent-SecFour table td, .parent-SecFive table td
+  {
+    display: block;
+    border-bottom:none;
+    box-sizing: border-box;
+  }
+  .parent-SecFour table td span, .parent-SecFive table td span
+  {
+    font-weight: bold;
+    display:block;
+    width:100%;
+    padding-top: 4px;
+  }
+  
+  .parent-SecFour table td::before, .parent-SecFive table td::before
+   {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: none;
+    
+    text-transform: uppercase;
+  }
+  /*parent-post-login*/
+}
+
+@media(min-width: 768px) and (max-width: 991px) 
+{
+    .electronic-signature
+    {
+        width: 95%;
+    }
+	/***signup***/
+.signup-form h1 {
+    font-size: 28px;
+    line-height: 50px;
+}
+.signup-form .pediatric-signup {
+    width: 550px;
+    padding: 10px;
+}
+.pediatric-form .pediatric-signup .col-ps-6 {
+    width: 43%;
+    margin-bottom: 20px;
+}
+.signup-form {
+    height: auto;
+}
+.pediatric-form .pediatric-signup .col-ps-6 label {
+    font-size: 15px;
+}
+.pediatric-form .pediatric-signup .col-ps-6 input {
+    font-size: 15px;  
+	line-height: 25px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.lastname .text-box:after,.pediatric-form .pediatric-signup .col-ps-6.firstname .text-box:after {
+    top: 5px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.mobile .text-box:after,.pediatric-form .pediatric-signup .col-ps-6.emailid .text-box:after {
+    top: 10px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.password .text-box:after,.pediatric-form .pediatric-signup .col-ps-6.confirm .text-box:after {
+    top: 0px;
+}
+.pediatric-form .pediatric-signup .col-ps-12 .signup {
+    font-size: 17px;
+    line-height: 25px;
+    padding: 13px 30px 13px 30px;
+	margin-bottom: 15px;
+    display: inline-block;
+}
+.signin-option {
+    font-size: 15px;
+    line-height: 25px;
+}
+/***signup end***/
+/***login-start***/
+.login-form {
+    height: auto;
+}
+.login-form h1 {
+    font-size: 35px;
+	padding-top: 35px;
+}
+.login-form .pediatric-form {
+    width: 490px;
+}
+/***login-end***/
+/*index*/
+.container
+{
+    width:90%;
+    max-width:90%;
+}
+.header-banner .banner-section .believe h1
+{
+    font-size: 34px;
+    line-height: 41px;
+    margin-bottom:15px;
+}
+.header-banner .banner-section .believe p
+{
+    font-size: 16px;
+    line-height: 23px;
+}
+.form-service
+{
+    padding: 30px 0px 30px 0px;
+}
+.form-service h2
+{
+    font-size: 34px;
+    line-height: 50px;
+}
+.form-service h4
+{
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom:15px;
+}
+.form-service p
+{
+    font-size: 15px;
+    line-height: 23px;
+}
+.form-features {
+    padding: 30px 0px 30px 0px;
+}
+.form-features h2
+{
+    font-size: 34px;
+    line-height: 50px;
+}
+.form-features p
+{
+    font-size: 14px;
+    line-height: 24px;
+}
+.form-features .introduction .abstract {
+    width: 27%;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+.form-features .introduction .abstract h3
+{
+    font-size: 22px;
+    line-height: 34px;
+}
+.plans .multiple-plans .multiple-forms
+{
+    width: 30%;
+    margin: 0px 10px;
+    padding: 31px 15px 31px 15px;
+}
+.plans .multiple-plans .multiple-forms .sign-up
+{
+    font-size: 16px;
+    line-height: 33px;
+    padding: 9px 30px;
+}
+.plans .multiple-plans .multiple-forms .signup-poriton {
+    margin-top: 30px;
+}
+.plans .multiple-plans .multiple-forms h3, .plans .multiple-plans .multiple-forms h2
+{
+    text-align: center;
+}
+.footer-section .pediatric-footer .about, .footer-section .pediatric-footer .menu
+{
+    width:45%;
+    margin-bottom:40px;
+}
+.footer-section .pediatric-footer .reach-us, .footer-section .pediatric-footer .phone-number
+{
+    width:45%;
+}
+.footer-section .pediatric-footer .menu::after
+{
+    border:none;
+}
+.footer-section .pediatric-footer {
+    display: block;
+}
+.footer-section .pediatric-footer .menu ul li a
+{
+    line-height: 33px;
+}
+.copy-right {
+    padding: 15px 0px 15px 0px;
+}
+.copy-right p
+{
+    text-align: center;
+}
+.plans .multiple-plans .multiple-forms:first-child ul li
+{
+  margin-bottom:25px;
+}
+/*index*/
+/*payment*/
+.payment
+{
+    padding: 0px 0px;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*payment*/
+/*child-details*/
+.child-form.view-child-form
+{
+    width:85%;
+}
+.pediatric-profile.view-child .firstname.nameval, .pediatric-profile.view-child .lastname.nameval, .pediatric-profile.view-child .firstname.nameval, .pediatric-profile.view-child .state.nameval, .pediatric-profile.view-child .firstname.nameval, .pediatric-profile.view-child .state.nameval, .pediatric-profile.view-child .country.nameval, .pediatric-profile.view-child .city.nameval
+{
+    width:31%;
+    margin-right:15px;
+}
+.pediatric-profile.view-child .dateofbirth.nameval, .pediatric-profile.view-child .schoolname.nameval
+{
+    width:31%;
+    margin-right:15px;
+}
+.pediatric-profile.view-child .nameval .text-box input, .pediatric-profile.view-child .schoolname.nameval .text-box input, .pediatric-profile.view-child .state.nameval .sel, .pediatric-profile.view-child .country.nameval .sel, .pediatric-profile.view-child .city.nameval .sel, .pediatric-profile.view-child .dateofbirth.nameval .text-box input
+{
+    width:-webkit-fill-available;
+}
+.medical.nameval-One, .med-name.nameval-2, .nameval-1
+{
+    width:31%;
+    margin-right:15px;
+}
+.medical.nameval-One label
+{
+    margin-top:19px;
+}
+.nameval-2 label, .nameval-1 label
+{
+    margin-top:20px;
+}
+/*child-details*/
+/*manage-subcription*/
+.plans-subscription .multiple-plans .multiple-forms
+{
+    width:28.9%;
+    margin:0px 10px;
+    padding:31px 20px 31px 20px;
+}
+.plans-subscription .multiple-plans .multiple-forms h3
+{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom:15px;
+}
+.plans-subscription .multiple-plans .multiple-forms h2
+{
+    text-align: center;
+}
+.plans-subscription .multiple-plans .multiple-forms ul li
+{
+    font-size: 13px;
+}
+.plans-subscription .multiple-plans .multiple-forms .sign-up
+{
+    font-size: 14px;
+}
+.plans-subscription .multiple-plans .multiple-forms .signup-poriton
+{
+    margin-top:30px;
+}
+/*manage-subcription*/
+/*add-child*/
+.child-form
+{
+    width:85%;
+}
+/*add-child*/
+/*create-form*/
+.myfamily-form .select-location .parent-family
+{
+    padding: 17px 15px 17px 15px;
+}
+.myfamily-form .select-location .parent-family ul li
+{
+    padding: 0px 16px 0px 28px;
+}
+.select-location .state-country .col-ff-12 .col-ff-4
+{
+    width:29%;
+}
+.myfamily-form .asthma-action {
+    padding: 26px 26px;
+}
+.myfamily-form .asthma-action .col-ff-12 .action-plan {
+    padding: 15px 40px 16px 40px;
+}
+.myfamily-form .asthma-action .col-ff-12 .action-plan h1
+{
+    margin-bottom:6px;
+    font-size: 22px;
+    line-height: 25px;
+}
+.select-location .col-ff-12.name-birth .col-ff-4 label
+{
+    font-size: 14px;
+    margin-bottom:4px;
+}
+.select-location .medication .col-ff-3, .select-location .medication.route .col-ff-3, .select-location .medication.emergency .col-ff-3
+{
+    width: 30%;
+    margin-bottom:20px;
+}
+.select-location .medication .col-ff-2, .select-location .medication.route .col-ff-2, .select-location .medication.emergency .col-ff-2
+{
+    width: 19%;
+    margin-bottom:20px;
+}
+.select-location .col-ff-12.name-birth .col-ff-4
+{
+    width:37%;
+    margin-bottom:20px;
+}
+.dose .add-more-section
+{
+    margin-top:0px;
+}
+.select-location .all-these p
+{
+    line-height: 52px;
+}
+.medication-administration .name-date .col-ff-4 
+{
+    width: 45%;
+}
+.medication-administration .name-date .col-ff-4 label, .select-location .state-country .col-ff-12 .col-ff-4 label
+{
+    font-size: 14px;
+    margin-bottom:4px;
+}
+.select-location .state-country .col-ff-12 .col-ff-8 label
+{
+    font-size: 14px;
+    margin-bottom:0px;
+}
+.medication-administration .condition-being-treated .col-ff-3
+{
+    width:30%;
+}
+.myfamily-form {
+    padding: 13px 0px 20px 0px;
+}
+.select-location .effective .col-ff-4 label
+{
+    font-size: 14px;
+    margin-bottom:4px;
+}
+.select-location .medication .col-ff-2 label, .select-location .medication.route .col-ff-2 label, .select-location .medication.emergency .col-ff-2 label, .select-location .medication .col-ff-3 label, .select-location .medication.route .col-ff-3 label, .select-location .medication.emergency .col-ff-3 label
+{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.medication-administration .condition-being-treated .col-ff-2
+{
+    width:22%;
+    min-height: 81px;
+}
+.medication-administration .condition-being-treated .col-ff-2 label
+{
+    font-size: 14px;
+}
+.medication-administration .prescriber-details .col-ff-4
+{
+    width:30%;
+}
+.medication-administration .prescriber-signature .col-ff-4.parent
+{
+    width:35%;
+}
+.medication-administration .prescriber-details, .medication-administration .signatures
+{
+    padding:20px 0px;
+}
+.medication-administration .signatures p, .medication-administration .guardian p
+{
+    padding:0px 40px;
+}
+.medication-administration .prescriber-details label
+{
+    font-size: 14px;
+    margin-bottom:4px;
+}
+.medication-administration .signatures .prescriber-signature:first-child
+{
+    padding-top:0px;
+}
+.medication-administration .signatures .prescriber-signature:first-child .col-ff-4 label
+{
+    min-height: 37px;
+}
+.medication-administration .prescriber-signature .col-ff-4, .medication-administration .prescriber-signature .col-ff-4.parent
+{
+    width:47%;
+}
+.medication-administration .prescriber-signature .col-ff-4 label
+{
+    font-size: 14px;
+    margin-bottom:4px;
+}
+.medication-administration .prescriber-signature .col-ff-4 label span
+{
+    display: inline-block;
+}
+.select-location .state-country {
+    padding: 26px 26px;
+}
+.select-location .state-country p.request
+{
+    text-align: left;
+}
+.select-location .state-country.parent .col-ff-12 .col-ff-4 {
+   width:46%;
+}
+.select-location .state-country.parent .col-ff-12 .col-ff-4.pickup label {
+    margin-bottom:0px;
+ }
+.select-location .state-country.parent .col-ff-12 .col-ff-4 label
+{
+    margin-bottom:18px;
+}
+.select-location .state-country.prescriber-auth .col-ff-4
+{
+    width:47%;
+}
+.select-location .col-ff-12.severity ul li
+{
+    padding-bottom:20px;
+}
+.select-location .camp-operator .pescriber-approval .col-ff-8
+{
+    width:100%;
+}
+.select-location .camp-operator .pescriber-approval .col-ff-2
+{
+    width:20%;
+}
+.select-location .camp-operator .pescriber-approval .col-ff-2 label
+{
+    font-size: 14px;
+    margin-bottom:4px;
+}
+.myfamily-form .select-location .review-details ul li
+{
+    padding:0px 20px 0px 28px;
+    width:17%;
+    margin-bottom:10px;
+}
+/*create-form*/
+/*parent-post-login*/
+.parent-SecThree h2
+{
+    width:100%;
+    line-height: 35px;
+}
+.parent-SecThree p
+{
+    width:100%;
+}
+.table-form td, .table-form th
+{
+    padding:10px;
+    padding-left:10px;
+}
+.table-form td
+{
+    font-size: 13px;
+}
+.parent-SecFive, .parent-SecFour
+{
+    padding: 30px 0px;
+}
+.table-form td:last-child
+{
+    white-space: nowrap;
+}
+/*parent-post-login*/
+}
+
+@media(min-width: 992px) and (max-width: 1024px) 
+{
+	/***login-start***/
+.login-form {
+    height: auto;
+}
+/***login-end***/
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+    /*index*/
+    .container
+    {
+     width:90%;
+     max-width:90%;
+    }
+    .header-banner .banner-section .believe h1
+    {
+        font-size: 40px;
+    line-height: 50px;
+    }
+    .header-banner .banner-section .believe p
+    {
+        font-size: 18px;
+    line-height: 32px;
+    }
+    .form-service
+    {
+        padding: 36px 0px 30px 0px;
+    }
+    .form-service h2
+    {
+        font-size: 35px;
+    line-height: 50px;
+    }
+    .form-service h4
+    {
+        font-size: 20px;
+    line-height: 30px;
+    margin-bottom:20px;
+    }
+    .form-service p
+    {
+        font-size: 15px;
+    line-height: 21px;
+    }
+    .form-features .introduction .abstract {
+        width: 27%;
+        padding: 0px 25px;
+        margin-bottom: 25px;
+    }
+    .form-features h2
+    {
+        font-size: 35px;
+    }
+    .form-features {
+        padding: 30px 0px 30px 0px;
+    }
+    .plans {
+        padding: 30px 0px 30px 0px;
+    }
+    .plans .multiple-plans .multiple-forms
+    {
+        width:29%;
+        padding:31px 25px 52px 25px;
+    }
+    .plans .multiple-plans .multiple-forms .sign-up
+    {
+        font-size: 18px;
+    }
+    .footer-section .pediatric-footer .about img
+    {
+        width:100%;
+    }
+    .footer-section .pediatric-footer .about p, .footer-section .pediatric-footer .menu ul li a, .footer-section .pediatric-footer .phone-number ul li a, .footer-section .pediatric-footer .reach-us ul li a
+    {
+        font-size: 13px;
+    }
+    .footer-section .pediatric-footer .menu
+    {
+        width:24%;
+    }
+    /*index*/
+    /*payment*/
+.payment
+{
+    padding: 0px 0px;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*payment*/
+/*manage-subcription*/
+.plans-subscription .multiple-plans .multiple-forms
+{
+    width:29%;
+    padding: 31px 25px 52px 25px;
+}
+.plans-subscription .multiple-plans .multiple-forms .sign-up
+{
+    font-size: 16px;
+}
+/*manage-subcription*/
+/*create-form*/
+.myfamily-form .select-location .parent-family ul li
+{
+    padding: 0px 36px 0px 28px;
+}
+.select-location .state-country .col-ff-12 .col-ff-4
+{
+    width:30%;
+}
+.myfamily-form .asthma-action .col-ff-12 .action-plan {
+    padding: 15px 40px 16px 40px;
+}
+.select-location .col-ff-12.name-birth .col-ff-4
+{
+    width:30%;
+}
+.select-location .col-ff-12.name-birth .col-ff-4 label
+{
+    font-size: 14px;
+}
+.select-location .medication .col-ff-3, .select-location .medication.route .col-ff-3, .select-location .medication.emergency .col-ff-3
+{
+    width: 23%;
+    margin-bottom:20px;
+}
+.select-location .medication .col-ff-2, .select-location .medication.route .col-ff-2, .select-location .medication.emergency .col-ff-2
+{
+    width:16%;
+    min-height: 76px;
+    margin-bottom:20px;
+}
+/*create-form*/
+/*parent-post-login*/
+.table-form td:last-child
+{
+    white-space: nowrap;
+}
+/*parent-post-login*/
+}
+@media(max-width: 1300px) 
+{
+		/***login-start***/
+.login-form {
+    height: auto;
+}
+/***login-end***/
+}

@@ -1,0 +1,3131 @@
+@font-face {
+    font-family: "poppinsregular";
+    src: url("/fonts/poppins-regular-webfont.woff2") format("woff2"),
+        url("/fonts/poppins-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppinssemibold";
+    src: url("/fonts/poppins-semibold-webfont.woff2") format("woff2"),
+        url("/fonts/poppins-semibold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+/*signup*/
+
+.signup-form {
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.signup-form .pediatric-signup {
+    background: #ffffff;
+    opacity: 0.85;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    width: 768px;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 54px;
+}
+.signup-form h1 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    color: #444444;
+    margin-bottom: 0px;
+}
+.signup-form h1 span {
+    font-family: "poppinsregular";
+    font-weight: 100;
+}
+.pediatric-form .pediatric-signup .col-ps-6 {
+    width: 46%;
+    float: left;
+    padding: 0px 15px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+.pediatric-form .pediatric-signup .col-ps-6 label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+}
+.pediatric-form .pediatric-signup .col-ps-6 input {
+    background: #f1f1f1;
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #444444;
+    padding: 10px 34px 10px 10px;
+    border: none;
+    width: 89%;
+}
+.pediatric-form .pediatric-signup .col-ps-6 input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.pediatric-form .pediatric-signup .col-ps-6 .text-box {
+    position: relative;
+}
+.pediatric-form .pediatric-signup .col-ps-12 {
+    text-align: center;
+}
+.pediatric-form .pediatric-signup .col-ps-12 .signup {
+    background: #706c61;
+    border-radius: 15px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    color: #ffffff;
+    padding: 10px 37px 11px 36px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.pediatric-form .pediatric-signup .col-ps-12 .signup-back {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    color: #706c61;
+    padding: 10px 37px 11px 36px;
+    text-decoration: none;
+}
+.pediatric-form .pediatric-signup .col-ps-6.firstname .text-box:after {
+    content: "";
+    position: absolute;
+    background: url("../images/signup/name.png") no-repeat;
+    opacity: 0.8;
+    top: 9px;
+    right: 3px;
+    width: 30px;
+    height: 31px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.lastname .text-box:after {
+    content: "";
+    position: absolute;
+    background: url("../images/signup/name.png") no-repeat;
+    opacity: 0.8;
+    top: 9px;
+    right: 3px;
+    width: 30px;
+    height: 31px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.emailid .text-box:after {
+    content: "";
+    position: absolute;
+    background: url("../images/signup/mailid.png") no-repeat;
+    opacity: 0.8;
+    top: 12px;
+    right: 3px;
+    width: 30px;
+    height: 31px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.mobile .text-box:after {
+    content: "";
+    position: absolute;
+    background: url("../images/signup/mobile.png") no-repeat;
+    opacity: 0.7;
+    top: 13px;
+    right: 0px;
+    width: 30px;
+    height: 31px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.password .text-box:after {
+    content: "";
+    position: absolute;
+    background: url("../images/signup/password.png") no-repeat;
+    top: 1px;
+    right: 7px;
+    width: 35px;
+    height: 38px;
+}
+.pediatric-form .pediatric-signup .col-ps-6.confirm .text-box:after {
+    content: "";
+    position: absolute;
+    background: url("../images/signup/password.png") no-repeat;
+    top: 1px;
+    right: 7px;
+    width: 35px;
+    height: 38px;
+}
+.signin-option {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+}
+.signin-option a {
+    font-family: "poppinssemibold";
+    color: #585555;
+    text-decoration: none;
+}
+/*signup*/
+
+/*login*/
+.login-form {
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.login-form .pediatric-form {
+    width: 500px;
+    margin: 0 auto;
+}
+.login-form .pediatric-login {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 47px 50px 29px 50px;
+}
+.login-form h1 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    color: #444444;
+    margin: 0px;
+    padding-top: 63px;
+}
+.login-form h1 span {
+    font-family: "poppinsregular";
+    font-weight: 100;
+}
+.login-form .pediatric-login .col-pl-12 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 33px;
+    text-align: left;
+}
+.login-form .pediatric-login .col-pl-12 .text-box {
+    position: relative;
+}
+.login-form .pediatric-login .col-pl-12 label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+    margin-bottom: 13px;
+}
+.login-form .pediatric-login .col-pl-12 input {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #444444;
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 39px 10px 20px;
+    width: 88%;
+}
+.login-form .pediatric-login .col-pl-12 input:focus {
+    outline: none;
+}
+.login-form .pediatric-login .col-pl-12 .text-box.firstname::after {
+    content: "";
+    position: absolute;
+    background: url("../images/signup/name.png") no-repeat;
+    opacity: 0.8;
+    top: 9px;
+    right: 8px;
+    width: 30px;
+    height: 31px;
+}
+.login-form .pediatric-login .col-pl-12 .text-box.password::after {
+    content: "";
+    position: absolute;
+    background: url("../images/signup/password.png") no-repeat;
+    top: 1px;
+    right: 8px;
+    width: 34px;
+    height: 40px;
+}
+.login-form .pediatric-login .col-pl-12.login-button {
+    text-align: center;
+    margin-bottom: 22px;
+}
+.login-form .pediatric-login .col-pl-12.login-button input {
+    opacity: 1;
+}
+.login-form .pediatric-login .col-pl-12.login-button input:focus {
+    outline: none;
+}
+.login-form .pediatric-login .col-pl-12 .login {
+    background: #706c61;
+    border-radius: 15px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    color: #ffffff;
+    padding: 10px 37px 11px 36px;
+    width: auto;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.login-form .pediatric-login .col-pl-12 .back {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    color: #706c61;
+    padding: 10px 37px 11px 36px;
+    width: auto;
+    text-decoration: none;
+}
+.login-form .pediatric-login .forgot-password {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #444444;
+    opacity: 0.75;
+    text-decoration: none;
+}
+.login-form .account-signup {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 25px 90px;
+    margin-top: 30px;
+}
+.login-form .account-signup p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+    margin: 0px;
+}
+.login-form .account-signup p a {
+    color: #585555;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*login*/
+/*payment*/
+.payment-success {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #008000;
+    padding-top: 15px;
+}
+.payment-success a {
+    background: #706c61;
+    border-radius: 7px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
+    width: auto;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+}
+.payment {
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 63px 0px;
+}
+.payment .payment-details {
+    background: #ffffff;
+    opacity: 0.85;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 27px 49px 23px 51px;
+    width: 450px;
+    margin: 0 auto;
+}
+.payment .payment-details h3 {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.payment .payment-details input {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #444444;
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    border: none;
+    height: 45px;
+    padding-left: 14px;
+}
+.payment .payment-details input:focus {
+    outline: none;
+}
+.payment .payment-details input::placeholder {
+    color: #444444;
+    font-family: "poppinssemibold";
+}
+.payment .payment-details .form-group {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.payment .payment-details h3.card-details {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+    margin-top: 32px;
+    margin-bottom: 13px;
+}
+.payment .payment-details .form-group .col-pay-6-left {
+    width: 47%;
+    float: left;
+    margin-right: 18px;
+}
+.payment .payment-details .form-group .col-pay-6-right {
+    width: 47%;
+    float: left;
+}
+.payment .payment-details .payment-button {
+    text-align: center;
+}
+.payment .payment-details .payment-button .pay-button {
+    display: block;
+    margin-top: 36px;
+    margin-bottom: 14px;
+}
+.payment .payment-details .payment-button .money {
+    background: #706c61;
+    border-radius: 15px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    width: auto;
+    padding: 14px 41px 15px 49px;
+
+    text-decoration: none;
+}
+.payment .payment-details .cancel {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+/*payment*/
+
+/*profile*/
+.header-section {
+    background: #e1f4f3;
+    padding: 21px 0px 26px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.header-section .logo-section {
+    width: 50%;
+    float: left;
+}
+.header-section .login-section {
+    width: 50%;
+    float: left;
+}
+.header-section .login-section .sel__box.sel__box--black-panther {
+    width: 230px;
+}
+.header-section .login-section .sel::before {
+    right: -9px;
+    top: 16px;
+}
+.header-section .login-section .drop-down {
+    background: #ffffff;
+    border: 1px solid rgba(68, 68, 68, 0.15);
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 140px;
+    float: right;
+}
+.header-section .login-section .drop-down select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.header-section .login-section .drop-down select:focus {
+    outline: none;
+}
+.profile-form {
+    width: 660px;
+    margin: 0 auto;
+}
+.profile-form h1 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 65px;
+    text-align: center;
+    color: #444444;
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+.profile-form .pediatric-profile .col-ps-6 {
+    width: 45%;
+    float: left;
+    padding: 0px 15px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+.profile-form .pediatric-profile .col-ps-6 label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+}
+.profile-form .pediatric-profile .col-ps-6 input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #444444;
+    padding: 10px 34px 10px 10px;
+    border: none;
+    width: 89%;
+}
+.profile-form .pediatric-profile .col-ps-6 input:focus {
+    outline: none;
+}
+.profile-form .pediatric-profile .col-ps-12 {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 18px;
+    margin-bottom: 52px;
+}
+.profile-form .pediatric-profile .col-ps-12 .cancel {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    text-decoration: none;
+    margin-right: 28px;
+}
+.profile-form .pediatric-profile .col-ps-12 .update {
+    background: #706c61;
+    border-radius: 15px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 37px 11px 36px;
+}
+/*profile*/
+/*footer*/
+.footer-section {
+    background: rgba(250, 250, 250, 0.75);
+    padding: 62px 0px 42px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.footer-section .pediatric-footer {
+    display: flex;
+}
+.footer-section .pediatric-footer .about {
+    width: 28%;
+    float: left;
+    padding-right: 30px;
+    margin-right: 30px;
+    position: relative;
+}
+.footer-section .pediatric-footer .about:after {
+    content: "";
+    position: absolute;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    width: 0px;
+    height: 100%;
+    top: 0px;
+    right: 10px;
+}
+.footer-section .pediatric-footer .about p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #444444;
+    opacity: 0.5;
+}
+.footer-section .pediatric-footer .menu {
+    width: 20%;
+    float: left;
+    position: relative;
+}
+.footer-section .pediatric-footer .menu::after {
+    content: "";
+    position: absolute;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    width: 0px;
+    height: 100%;
+    top: 0px;
+    right: 41px;
+}
+.footer-section .pediatric-footer .menu h3 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+.footer-section .pediatric-footer .menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.footer-section .pediatric-footer .menu ul li a {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 40px;
+    color: #444444;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.footer-section .pediatric-footer .reach-us {
+    width: 26%;
+    float: left;
+    padding-right: 30px;
+    margin-right: 30px;
+    position: relative;
+}
+.footer-section .pediatric-footer .reach-us:after {
+    content: "";
+    position: absolute;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    width: 0px;
+    height: 100%;
+    top: 0px;
+    right: 10px;
+}
+.footer-section .pediatric-footer .reach-us h3 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+.footer-section .pediatric-footer .reach-us ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.footer-section .pediatric-footer .reach-us ul li a {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 40px;
+    color: #444444;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.footer-section .pediatric-footer .phone-number {
+    width: 22%;
+    float: left;
+}
+.footer-section .pediatric-footer .phone-number h3 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+.footer-section .pediatric-footer .phone-number h3.follow-us {
+    margin-top: 25px;
+}
+.footer-section .pediatric-footer .phone-number ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.footer-section .pediatric-footer .phone-number ul li a {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 40px;
+    color: #444444;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.footer-section .pediatric-footer .phone-number ul.social li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer-section .pediatric-footer .phone-number ul.social li a {
+    opacity: 1;
+}
+.copy-right {
+    padding: 32px 0px 26px 0px;
+}
+.copy-right p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #444444;
+    opacity: 0.6;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+/*footer*/
+
+/*landing*/
+.header-banner {
+    background: #e1f4f3;
+}
+.header-banner .header {
+    padding: 21px 0px 20px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.header-banner .logo-section {
+    width: 50%;
+    float: left;
+}
+.header-banner .right-section {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.header-banner .right-section .login {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    background: #ffffff;
+    border: 1px solid rgba(68, 68, 68, 0.15);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 9px 32px 10px 31px;
+    text-decoration: none;
+}
+.header-banner .banner-section {
+    display: inline-block;
+    width: 100%;
+}
+.header-banner .banner-section .believe {
+    width: 52%;
+    float: left;
+    padding-bottom: 74px;
+}
+.header-banner .banner-section .believe h1 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+    color: #444444;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.header-banner .banner-section .believe p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 38px;
+    color: #444444;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.header-banner .banner-section .believe a {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    background: #ffffff;
+    border: 1px solid rgba(68, 68, 68, 0.15);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 12px 36px 12px 29px;
+    display: inline-block;
+    text-decoration: none;
+}
+.header-banner .banner-section .image-section {
+    width: 48%;
+    float: left;
+    position: absolute;
+    right: 0px;
+}
+.header-banner .banner-section .image-section img {
+    width: 100%;
+}
+.form-service {
+    padding: 96px 0px 90px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.form-service h2 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 65px;
+    color: #444444;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.form-service h4 {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 45px;
+    color: #444444;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.form-service p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #444444;
+    opacity: 0.7;
+    margin: 0px;
+}
+.form-features {
+    background: rgba(250, 250, 250, 0.75);
+    display: inline-block;
+    width: 100%;
+    padding: 61px 0px 71px 0px;
+}
+.form-features h2 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 45px;
+    color: #444444;
+    margin: 0px;
+    text-align: center;
+}
+.form-features p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 45px;
+    color: #444444;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 19px;
+}
+.form-features .introduction {
+    display: inline-block;
+    width: 100%;
+}
+.form-features .introduction .abstract {
+    width: 26%;
+    float: left;
+    padding: 0px 40px;
+    margin-bottom: 35px;
+}
+.form-features .introduction .abstract h3 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    color: #444444;
+    margin: 0px;
+}
+.form-features .introduction .abstract p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+    margin: 0px;
+}
+.plans {
+    padding: 92px 0px 79px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.plans .multiple-plans {
+    display: inline-block;
+    width: 100%;
+}
+.plans .multiple-plans .multiple-forms {
+    width: 30%;
+    float: left;
+    margin: 0px 15px;
+    background: linear-gradient(
+        180deg,
+        rgba(225, 244, 243, 0.75) 12.4%,
+        rgba(225, 244, 243, 0) 73.33%
+    );
+    border: 1px solid #e9f7f6;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 31px 45px 52px 45px;
+}
+.plans .multiple-plans .multiple-forms h3 {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #444444;
+    margin: 0px;
+}
+.plans .multiple-plans .multiple-forms h3 span {
+    font-size: 14px;
+    display: block;
+}
+.plans .multiple-plans .multiple-forms h2 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+    color: #444444;
+    margin-top: 0px;
+    margin-bottom: 23px;
+}
+.plans .multiple-plans .multiple-forms ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.plans .multiple-plans .multiple-forms ul li {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #444444;
+    opacity: 0.7;
+    position: relative;
+    margin-bottom: 19px;
+    padding-left: 20px;
+}
+.plans .multiple-plans .multiple-forms ul li::before {
+    content: "";
+    position: absolute;
+    background: url("../images/landing/tick.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    left: 0px;
+    top: 5px;
+}
+.plans .multiple-plans .multiple-forms .sign-up {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #ffffff;
+    background: #706c61;
+    border-radius: 15px;
+    padding: 11px 48px;
+    text-decoration: none;
+}
+.plans .multiple-plans .multiple-forms .signup-poriton {
+    text-align: center;
+    margin-top: 63px;
+}
+/*landing*/
+/*manage-subscription*/
+.plans-subscription {
+    padding: 49px 0px 50px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.plans-subscription .multiple-plans {
+    display: inline-block;
+    width: 100%;
+}
+.plans-subscription .multiple-plans .multiple-forms {
+    width: 30%;
+    float: left;
+    margin: 0px 15px;
+    background: linear-gradient(
+        180deg,
+        rgba(225, 244, 243, 0.75) 12.4%,
+        rgba(225, 244, 243, 0) 73.33%
+    );
+    border: 1px solid #e9f7f6;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 31px 45px 52px 45px;
+}
+.plans-subscription .multiple-plans .multiple-forms h3 {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #444444;
+    margin: 0px;
+}
+.plans-subscription .multiple-plans .multiple-forms h2 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+    color: #444444;
+    margin-top: 0px;
+    margin-bottom: 23px;
+}
+.plans-subscription .multiple-plans .multiple-forms ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.plans-subscription .multiple-plans .multiple-forms ul li {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #444444;
+    opacity: 0.7;
+    position: relative;
+    margin-bottom: 19px;
+    padding-left: 20px;
+}
+.plans-subscription .multiple-plans .multiple-forms ul li::before {
+    content: "";
+    position: absolute;
+    background: url("../images/landing/tick.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    left: 0px;
+    top: 5px;
+}
+.plans-subscription .multiple-plans .multiple-forms .sign-up {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #706c61;
+    border: 1px solid #706c61;
+    border-radius: 15px;
+    padding: 11px 25px 11px 26px;
+    text-decoration: none;
+}
+.plans-subscription .multiple-plans .multiple-forms .sign-up:hover {
+    background: #706c61;
+    color: #fff;
+}
+.plans-subscription .multiple-plans .multiple-forms .sign-up.active {
+    background: #706c61;
+    color: #fff;
+}
+.plans-subscription .multiple-plans .multiple-forms .signup-poriton {
+    text-align: center;
+    margin-top: 48px;
+}
+/*manage-subscription*/
+
+/**parent-login page**/
+.parent-SecTwo h2 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #444444;
+    margin: 0 auto;
+    padding: 40px 0px;
+    width: 630px;
+}
+.parent-SecTwo {
+    background: #e1f4f3;
+    border: 1px solid #4444441f;
+}
+.parent-header.header-section:before,
+.parent-header.header-section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+table.School-Detail,
+table.form-Details {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-form td,
+.table-form th {
+    text-align: left;
+    padding: 15px;
+    padding-left: 36px;
+}
+.table-form th {
+    background: #706c61;
+    font-family: poppinssemibold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.table-form td {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    border-bottom: 0.5px solid rgba(68, 68, 68, 0.4);
+}
+.table-form td a {
+    color: #444444;
+    text-decoration: none;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+.parent-SecThree {
+    text-align: center;
+    padding: 60px 0px;
+}
+.parent-SecThree h2 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    color: #444444;
+    opacity: 0.7;
+    margin: 0 auto;
+    padding: 0;
+    width: 860px;
+}
+.parent-SecThree p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #444444;
+    opacity: 0.7;
+    margin: 0 auto;
+    padding: 0;
+    width: 905px;
+}
+.parent-SecFour {
+    background: rgba(250, 250, 250, 0.75);
+    padding: 60px 0px;
+}
+.parent-SecFour h3 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 65px;
+    color: #444444;
+    margin: 0px;
+}
+.add-New p a {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    text-decoration: none;
+}
+.parent-SecFive h3 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 65px;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+}
+.form-Family {
+    width: 50%;
+    float: left;
+}
+.add-New {
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding-top: 12px;
+}
+.add-New p a img {
+    padding-right: 5px;
+}
+.table-form {
+    clear: both;
+    margin-top: 20px;
+}
+.parent-SecFive {
+    padding: 60px 0px;
+}
+table.form-Details td,
+table.form-Details th {
+    width: 23%;
+}
+.parent-header.header-section {
+    display: inline-flex;
+}
+/**parent-login page**/
+
+/**add-children**/
+.nameval {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+    width: 33.333%;
+    float: left;
+    margin-top: 25px;
+}
+.nameval .text-box input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #444444;
+    padding: 10px 20px 10px 10px;
+    border: none;
+    width: 82.333%;
+}
+.child-form {
+    width: 800px;
+    margin: 0 auto;
+}
+.schoolname.nameval {
+    width: 100%;
+}
+.schoolname.nameval .text-box input {
+    width: 94%;
+}
+.nameval .text-box select {
+    background: rgba(241, 241, 241, 0.4);
+    border-radius: 10px;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #444444;
+    padding: 10px 20px 10px 10px;
+    border: none;
+    width: 93.333%;
+    -webkit-appearance: none;
+}
+.child-form h2 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 65px;
+    text-align: center;
+    color: #444444;
+    margin: 25px 0px 0px 0px;
+}
+/* Chrome, Safari, Edge, Opera */
+input:ebkit-outer-spin-button,
+input:ebkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.child-form .submit-btn a.submit {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    text-decoration: none;
+    margin-right: 28px;
+}
+.submit-btn a.cancel {
+    background: #706c61;
+    border-radius: 15px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 37px 4px 36px;
+    clear: both;
+    display: inline-block;
+}
+.submit-btn {
+    text-align: center;
+}
+.pediatric-profile,
+.pediatric-profile:after,
+.pediatric-profile:before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.submit-btn {
+    text-align: center;
+    clear: both;
+    margin: 30px;
+}
+.submit-btn:before,
+.submit-btn:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/**add-children**/
+
+/*selectbox-style*/
+
+/* ===== Horizontal Rule ===== */
+.rule {
+    margin: 10px 0;
+    border: none;
+    height: 1.5px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#f0f0f0),
+        color-stop(#c9bbae),
+        to(#f0f0f0)
+    );
+    background-image: linear-gradient(left, #f0f0f0, #c9bbae, #f0f0f0);
+}
+
+/* ===== Select Box ===== */
+.sel {
+    display: inline-block;
+
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 90%;
+}
+
+.sel::before {
+    position: absolute;
+    content: "\f063";
+    font-family: "FontAwesome";
+    font-size: 2em;
+    color: transparent;
+    right: 0px;
+    top: 14px;
+    background: url("../images/profile/downarrow.png") no-repeat;
+}
+
+/*.sel.active::before {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }*/
+
+.sel__placeholder {
+    display: block;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 8px 30px 9px 19px;
+    text-align: left;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    visibility: visible;
+}
+
+.sel.active .sel__placeholder {
+    visibility: hidden;
+}
+
+.sel__placeholder::before {
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    left: 9px;
+    right: 0;
+    padding: 0.2em 0.5em;
+    content: attr(data-placeholder);
+
+    visibility: hidden;
+}
+
+.sel.active .sel__placeholder::before {
+    visibility: visible;
+}
+
+.sel__box {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: -4px;
+    display: none;
+    list-style-type: none;
+    text-align: left;
+    font-size: 1em;
+    background-color: #fff;
+    width: calc(100% + 8px);
+    box-sizing: border-box;
+}
+
+.sel.active .sel__box {
+    display: block;
+    /*width: 230px;*/
+    width: -webkit-fill-available;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px #cccccc61;
+    -webkit-animation: fadeInUp 500ms;
+    animation: fadeInUp 500ms;
+    z-index: 4;
+}
+
+.sel__box__options {
+    display: list-item;
+    font-family: "poppinsregular";
+    font-weight: normal;
+    font-size: 14px;
+    padding: 15px 19px;
+    border-bottom: 1px solid #ccc;
+    opacity: 0.75;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.sel__box__options:last-child {
+    border-bottom: none;
+}
+
+.sel__box__options::after {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 0.5em;
+    margin-left: 5px;
+    display: none;
+}
+
+.sel__box__options.selected::after {
+    display: inline;
+}
+
+.sel__box__options:hover {
+    background-color: #ebedef;
+}
+
+/* ===== Keyframes ===== */
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+/*selectbox-style*/
+
+/*view-children*/
+.pediatric-profile.view-child .firstname.nameval,
+.pediatric-profile.view-child .lastname.nameval,
+.pediatric-profile.view-child .firstname.nameval,
+.pediatric-profile.view-child .state.nameval,
+.pediatric-profile.view-child .firstname.nameval,
+.pediatric-profile.view-child .state.nameval,
+.pediatric-profile.view-child .country.nameval,
+.pediatric-profile.view-child .city.nameval {
+    width: 22%;
+}
+.pediatric-profile.view-child .dateofbirth.nameval {
+    width: 18%;
+}
+.pediatric-profile.view-child .schoolname.nameval {
+    width: 32%;
+}
+.child-form.view-child-form {
+    width: 875px;
+}
+.pediatric-profile.view-child .nameval .text-box input {
+    width: 76.333%;
+}
+.pediatric-profile.view-child .dateofbirth.nameval .text-box input {
+    width: 72%;
+}
+.pediatric-profile.view-child .schoolname.nameval .text-box input {
+    width: 96%;
+}
+.medical.nameval-One select,
+.med-name.nameval-2 input,
+.nameval-1 input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #444444;
+    padding: 10px 20px 10px 10px;
+    border: none;
+}
+.medical.nameval-One select {
+    width: 90.333%;
+}
+.medical.nameval-One label,
+.nameval-2 label,
+.nameval-1 label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    width: 90%;
+    float: left;
+    margin-top: 25px;
+}
+.medical.nameval-One,
+.med-name.nameval-2 {
+    width: 22%;
+    float: left;
+}
+.view-child-second-form .medication-child {
+    display: inline-block;
+    width: 100%;
+}
+.view-child-second-form .medication-child .sel {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+}
+.view-child-second-form:after,
+.view-child-second-form:before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.med-name.nameval-2 input {
+    width: 78.333%;
+}
+.nameval-1 {
+    width: 16%;
+    float: left;
+}
+.nameval-1 input {
+    width: 71.333%;
+}
+.back-btn a {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    color: #666666;
+    display: inline-block;
+    text-decoration: none;
+}
+.back-btn {
+    display: block;
+    clear: both;
+    margin: 30px 0px 50px 0px;
+}
+.back-btn a img {
+    padding-right: 10px;
+}
+.view-child-second-form {
+    clear: both;
+    margin: 10px 0px 0px 0px;
+    border-top: 1px solid #44444438;
+    padding-top: 10px;
+}
+.pediatric-profile.view-child {
+    margin-bottom: 40px;
+}
+.pediatric-profile.view-child .state.nameval .sel,
+.pediatric-profile.view-child .country.nameval .sel,
+.pediatric-profile.view-child .city.nameval .sel {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+}
+/*view-children*/
+
+/*create-form-my-family*/
+.electronic-signature {
+    background: #706c61;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+}
+.electronic-signature label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    padding-left: 20px;
+    position: relative;
+}
+.electronic-signature input[type="checkbox"] {
+    display: none;
+}
+.select-location .electronic-signature label::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 0px;
+    top: -2px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+.select-location
+    .electronic-signature
+    input[type="checkbox"]:checked
+    + label::after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 5px;
+    height: 7px;
+    left: 5px;
+    top: 1px;
+    transform: rotate(40deg);
+}
+
+.myfamily-form .tabs-content div:not(:first-child) {
+    display: none;
+}
+.myfamily-form {
+    padding: 13px 0px 111px 0px;
+}
+.myfamily-form .select-location a.back-family {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    text-decoration: none;
+    padding-bottom: 13px;
+    display: inline-block;
+}
+.myfamily-form .select-location .parent-family {
+    background: #706c61;
+    opacity: 0.8;
+    padding: 18px 71px 17px 71px;
+}
+.myfamily-form .select-location ul.tabs {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.myfamily-form .select-location .parent-family ul li {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+    padding: 0px 76px 0px 28px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.myfamily-form .select-location .parent-family ul li:last-child {
+    padding: 0px 0px 0px 26px;
+}
+.myfamily-form .select-location .parent-family ul li span {
+    font-size: 13px;
+    display: block;
+}
+.myfamily-form .select-location .parent-family ul li::before {
+    content: "";
+    position: absolute;
+    background: url("../images/family-form/tick.png") no-repeat;
+    width: 22px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+}
+.myfamily-form .asthma-action {
+    padding: 26px 46px;
+}
+.myfamily-form .asthma-action .col-ff-12 {
+    display: inline-block;
+    width: 100%;
+}
+.myfamily-form .asthma-action .col-ff-12 .action-plan {
+    background: #e1f4f3;
+    padding: 15px 140px 16px 139px;
+}
+.myfamily-form .asthma-action .col-ff-12 .action-plan h1 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #444444;
+    margin: 0px;
+    text-align: center;
+}
+.myfamily-form .asthma-action .col-ff-12 .action-plan p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #444444;
+    margin: 0px;
+    text-align: center;
+}
+.select-location .tab-content {
+    display: none;
+}
+.tab-content.current {
+    display: inherit;
+}
+.select-location .col-ff-12.name-birth {
+    padding: 32px 0px 37px 0px;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+}
+.select-location .col-ff-12.name-birth .col-ff-4 {
+    width: 31%;
+    float: left;
+    margin-right: 20px;
+}
+.select-location .col-ff-12.name-birth .col-ff-4 label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    display: block;
+    margin-bottom: 18px;
+}
+.select-location .col-ff-12.name-birth .col-ff-4 input {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px 11px 20px;
+    width: -webkit-fill-available;
+    border: none;
+}
+.select-location .col-ff-12.severity {
+    padding: 32px 0px 37px 0px;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+}
+.select-location .col-ff-12.severity label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    display: block;
+    margin-bottom: 18px;
+}
+.select-location .col-ff-12.severity ul {
+    padding: 0px;
+    padding-left: 15px;
+    margin: 0px;
+    list-style: none;
+}
+.select-location .col-ff-12.severity ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+.select-location .col-ff-12.severity ul li input[type="checkbox"] {
+    display: none;
+}
+.select-location .col-ff-12.severity ul li label {
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+.select-location .col-ff-12.severity ul li label::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 0px;
+    top: 4px;
+    border: 2px solid #666666;
+    box-sizing: border-box;
+}
+.select-location
+    .col-ff-12.severity
+    ul
+    li
+    input[type="checkbox"]:checked
+    + label::after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    width: 5px;
+    height: 7px;
+    left: 5px;
+    top: 6px;
+    transform: rotate(40deg);
+}
+.select-location .col-ff-12.severity ul li.text-box {
+    width: 16%;
+    padding-right: 0px;
+}
+.select-location .col-ff-12.severity ul li.text-box input {
+    background: #f1f1f1;
+    opacity: 0.5;
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px 11px 20px;
+    width: -webkit-fill-available;
+    border: none;
+}
+.select-location .col-ff-12.severity.triggers ul li:nth-last-child(2) {
+    padding-right: 12px;
+}
+.select-location .col-ff-12.severity.triggers {
+    border-bottom: none;
+}
+.select-location .asthma-plan {
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+    padding-bottom: 24px;
+}
+.select-location .section-one {
+    background: rgba(112, 108, 97, 0.8);
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 7px 0px 9px 0px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.select-location .effective {
+    display: inline-block;
+    width: 100%;
+}
+.select-location .effective label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    display: block;
+}
+.select-location .effective span {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+    opacity: 0.7;
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.select-location .effective .col-ff-4 label {
+    margin-bottom: 18px;
+}
+.select-location .effective .col-ff-4 {
+    width: 31%;
+    float: left;
+    margin-right: 20px;
+}
+.select-location .effective .col-ff-4 input {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    background: rgba(241, 241, 241, 0.5);
+
+    border-radius: 10px;
+    padding: 10px 20px 11px 20px;
+    width: -webkit-fill-available;
+    border: none;
+}
+.select-location .green-zone {
+    background: rgba(18, 126, 63, 0.8);
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 7px 0px 9px 0px;
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 40px;
+}
+.select-location .all-these {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.select-location .all-these h3 {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.select-location .all-these span {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #444444;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 4px;
+}
+.select-location .all-these p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #444444;
+    margin: 0px;
+}
+.select-location .all-these p input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    width: 120px;
+    margin: 0px 10px 0px 8px;
+    border: none;
+    padding: 10px;
+}
+.select-location .dose {
+    padding: 20px 0px 31px 0px;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+}
+.select-location .dose .exercise-zone h4 {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 0px;
+}
+.select-location .dose .exercise-zone ul {
+    padding: 10px 0px 30px 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+.select-location .dose .exercise-zone ul li {
+    display: inline-block;
+    padding-right: 12px;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+}
+.select-location .dose .exercise-zone ul li input[type="checkbox"] {
+    display: none;
+}
+.select-location .dose .exercise-zone ul li label {
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+.select-location .dose .exercise-zone ul li label::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 0px;
+    top: -1px;
+    border: 2px solid #666666;
+    box-sizing: border-box;
+}
+.select-location
+    .dose
+    .exercise-zone
+    ul
+    li
+    input[type="checkbox"]:checked
+    + label::after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    width: 5px;
+    height: 7px;
+    left: 5px;
+    top: 1px;
+    transform: rotate(40deg);
+}
+.select-location .medication {
+    display: inline-block;
+    width: 100%;
+}
+.select-location .medication .col-ff-3 {
+    width: 19%;
+    float: left;
+    padding-right: 20px;
+}
+.select-location .medication .col-ff-2 {
+    width: 12%;
+    float: left;
+    padding-right: 20px;
+}
+.select-location .medication label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #999999;
+    display: block;
+    margin-bottom: 18px;
+}
+.select-location .medication .resue label {
+    font-size: 14px;
+}
+.select-location .medication .self label,
+.select-location .medication .side label {
+    margin-bottom: 7px;
+}
+.select-location .medication label span {
+    display: block;
+    font-size: 12px;
+}
+.select-location .medication .sel.sel--black-panther {
+    background: #f1f1f1;
+    opacity: 0.5;
+    border-radius: 10px;
+    width: -webkit-fill-available;
+}
+.select-location .medication ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.select-location .medication ul li {
+    display: inline-block;
+    padding-right: 12px;
+}
+.select-location .medication ul li input[type="checkbox"] {
+    display: none;
+}
+.select-location .medication ul li label {
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+.select-location .medication ul li label::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 0px;
+    top: 2px;
+    border: 2px solid #666666;
+    box-sizing: border-box;
+}
+.select-location
+    .medication
+    ul
+    li
+    input[type="checkbox"]:checked
+    + label::after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    width: 5px;
+    height: 7px;
+    left: 5px;
+    top: 4px;
+    transform: rotate(40deg);
+}
+.dose .add-more-section {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+.dose .add-more-section a {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #706c61;
+    padding: 9px 11px 8px 12px;
+    border: 2px solid #706c61;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.select-location .yellow-zone {
+    background: #ffd300;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 7px 0px 9px 0px;
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 40px;
+}
+.select-location .medication.route .col-ff-3 {
+    width: 16%;
+    padding-right: 17px;
+}
+.select-location .medication.route .col-ff-2 {
+    width: 12%;
+    padding-right: 17px;
+}
+.select-location .red-zone {
+    background: rgba(255, 0, 0, 0.8);
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 7px 0px 9px 0px;
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 40px;
+}
+.select-location .medication.emergency .col-ff-3 {
+    width: 19%;
+    padding-right: 14px;
+}
+.select-location .medication.emergency .col-ff-2 {
+    width: 12%;
+    padding-right: 12px;
+}
+.select-location .continue-button {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 60px;
+}
+.select-location .continue-button a.continue {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #706c61;
+    border-radius: 15px;
+    padding: 10px 30px 11px 31px;
+    text-decoration: none;
+    margin-right: 29px;
+}
+.select-location .continue-button a.cancel {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    text-decoration: none;
+}
+.select-location .state-country h3 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #444444;
+    margin: 0px;
+    margin-bottom: 26px;
+}
+.select-location .state-country {
+    padding: 26px 46px;
+}
+.select-location .state-country .col-ff-12 {
+    display: inline-block;
+    width: 100%;
+}
+.select-location .state-country .col-ff-12 .col-ff-4 {
+    width: 31%;
+    float: left;
+    padding-right: 20px;
+}
+.select-location .state-country .col-ff-12 .col-ff-4 label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #999999;
+    margin-bottom: 18px;
+    display: block;
+}
+.select-location .state-country .col-ff-12 .col-ff-4 .sel.sel--black-panther {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    width: -webkit-fill-available;
+}
+.select-location .state-country .col-ff-12 .col-ff-8 {
+    width: 62%;
+    float: left;
+    padding-right: 20px;
+}
+.select-location .state-country .col-ff-12 .col-ff-8 label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    margin-bottom: 11px;
+    display: block;
+}
+.select-location .state-country .col-ff-12 .col-ff-8 .sel.sel--black-panther {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    width: -webkit-fill-available;
+}
+.select-location .state-country .col-ff-12 .col-ff-8 .sel.active .sel__box {
+    width: 100% !important;
+}
+.select-location .state-country p.request {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #444444;
+    opacity: 0.7;
+    padding-bottom: 26px;
+    margin-bottom: 0px;
+}
+.select-location .state-country p.terms {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+.select-location .state-country p.terms input[type="checkbox"] {
+    display: none;
+}
+.select-location .state-country p.terms label {
+    position: relative;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    color: #444444;
+}
+.select-location .state-country p.terms label::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 0px;
+    top: -2px;
+    border: 2px solid #666666;
+    box-sizing: border-box;
+}
+.select-location .state-country p.typing {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #444444;
+
+    opacity: 0.7;
+}
+.select-location
+    .state-country
+    p.terms
+    input[type="checkbox"]:checked
+    + label::after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    width: 5px;
+    height: 7px;
+    right: 5px;
+    top: 1px;
+    transform: rotate(40deg);
+}
+.select-location .state-country .col-ff-12 .col-ff-4 label span {
+    font-size: 13px;
+    display: block;
+}
+.select-location .state-country .col-ff-12 .col-ff-4 input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    width: -webkit-fill-available;
+    border: none;
+    padding: 10px;
+}
+.select-location .state-country .col-ff-12 .col-ff-4.pickup label {
+    margin-bottom: 0px;
+}
+.select-location .state-country.parent .col-ff-12 .col-ff-4 {
+    margin-bottom: 33px;
+}
+.select-location .state-country.parent .continue-button {
+    padding-top: 23px;
+}
+.select-location .state-country.prescriber-auth .continue-button a.cancel {
+    margin-right: 29px;
+}
+.select-location .state-country.prescriber-auth .continue-button a.continue {
+    margin-right: 0px;
+}
+.select-location .authoisation {
+    background: #e1f4f3;
+    padding: 24px 31px 34px 32px;
+}
+.select-location .authoisation h3 {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 65px;
+    text-align: center;
+    color: #444444;
+    margin: 0px;
+}
+.select-location .authoisation p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(68, 68, 68, 0.7);
+    margin-bottom: 9px;
+    margin-top: 0px;
+}
+.medication-administration .default-section {
+    background: rgba(112, 108, 97, 0.8);
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 7px 0px 9px 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.medication-administration .name-date {
+    display: inline-block;
+    width: 100%;
+}
+.medication-administration .name-date .col-ff-4 {
+    width: 31%;
+    float: left;
+    margin-right: 20px;
+}
+.medication-administration .name-date .col-ff-4 label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    margin-bottom: 18px;
+    display: block;
+}
+.medication-administration .name-date .col-ff-4 input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    padding: 10px 21px 11px 20px;
+    border: none;
+    width: -webkit-fill-available;
+}
+.medication-administration .administrated {
+    padding: 41px 0px 20px 0px;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+}
+.medication-administration .administrated span {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+    color: rgba(68, 68, 68, 0.7);
+    display: block;
+    padding-left: 15px;
+}
+.medication-administration .prescriber-authorization {
+    padding: 30px 0px 40px 0px;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+}
+.medication-administration .condition-being-treated {
+    padding: 24px 0px 30px 0px;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+    display: inline-block;
+    width: 100%;
+}
+.medication-administration .condition-being-treated .col-ff-3 {
+    width: 22%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.medication-administration .condition-being-treated .prn-para label,
+.medication-administration .condition-being-treated .administer label,
+.medication-administration .condition-being-treated .carry label,
+.medication-administration .condition-being-treated .emergency label {
+    margin-bottom: 0px;
+    line-height: 21px;
+}
+.medication-administration .condition-being-treated .col-ff-2 {
+    width: 14%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.medication-administration .condition-being-treated label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    margin-bottom: 18px;
+    display: block;
+}
+.medication-administration .condition-being-treated label span {
+    font-size: 12px;
+    display: block;
+}
+.medication-administration .condition-being-treated .sel.sel--black-panther {
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+}
+.medication-administration .condition-being-treated ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    margin-top: 12px;
+}
+.medication-administration .condition-being-treated ul li {
+    display: inline-block;
+    padding-right: 12px;
+}
+.medication-administration
+    .condition-being-treated
+    ul
+    li
+    input[type="checkbox"] {
+    display: none;
+}
+.medication-administration .condition-being-treated ul li label {
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+.medication-administration .condition-being-treated ul li label::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 0px;
+    top: 0px;
+    border: 2px solid #666666;
+    box-sizing: border-box;
+}
+.medication-administration
+    .condition-being-treated
+    ul
+    li
+    input[type="checkbox"]:checked
+    + label::after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    width: 5px;
+    height: 7px;
+    left: 5px;
+    top: 1px;
+    transform: rotate(40deg);
+}
+.condition-being-treated .add-more {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+.condition-being-treated .add-more a {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #706c61;
+    padding: 9px 11px 8px 12px;
+    border: 2px solid #706c61;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.medication-administration .prescriber-details {
+    padding: 32px 0px 40px 0px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+}
+
+.medication-administration .prescriber-details .col-ff-4 {
+    width: 31%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.medication-administration .prescriber-details .col-ff-8 {
+    width: 64%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.medication-administration .prescriber-details label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    display: block;
+    margin-bottom: 18px;
+}
+.medication-administration .prescriber-details input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    padding: 10px 21px 11px 20px;
+    border: none;
+    width: -webkit-fill-available;
+}
+.medication-administration .signatures {
+    padding: 30px 0px 20px 0px;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+}
+.medication-administration .prescriber-signature {
+    display: inline-block;
+    width: 100%;
+    padding-top: 33px;
+}
+.medication-administration .prescriber-signature .col-ff-4 {
+    width: 31%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.medication-administration .prescriber-signature label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #999999;
+    display: block;
+    margin-bottom: 18px;
+}
+.medication-administration .prescriber-signature label span {
+    font-size: 12px;
+    display: block;
+}
+.medication-administration .prescriber-signature .parent label {
+    margin-bottom: 0px;
+}
+.medication-administration .prescriber-signature input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    padding: 10px 21px 11px 20px;
+    border: none;
+    width: -webkit-fill-available;
+}
+.medication-administration .guardian {
+    padding: 20px 0px 50px 0px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+}
+.medication-administration .signatures p,
+.medication-administration .guardian p {
+    padding: 0px 170px 0px 170px;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(68, 68, 68, 0.7);
+    margin: 0px;
+}
+
+/*create-form-my-family*/
+/*view-form*/
+.myfamily-form .select-location a.complete-form,
+.myfamily-form .select-location button.complete-form {
+    float: right;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    background: #706c61;
+    border-radius: 7px;
+    padding: 6px 12px 6px 13px;
+    text-decoration: none;
+}
+.myfamily-form .select-location .review-details {
+    display: inline-block;
+    width: 100%;
+    padding-top: 23px;
+    margin-top: 10px;
+    border-top: 1px solid rgba(68, 68, 68, 0.25);
+}
+.myfamily-form .select-location .review-details ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.myfamily-form .select-location .review-details ul li {
+    display: inline-block;
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(68, 68, 68, 0.4);
+    position: relative;
+    padding: 0px 40px 0px 28px;
+    width: 14%;
+    vertical-align: top;
+    cursor: pointer;
+}
+.myfamily-form .select-location .review-details ul li span.mobile {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(68, 68, 68, 0.4);
+}
+.myfamily-form .select-location .review-details ul li span {
+    display: block;
+    font-size: 10px;
+    color: rgba(68, 68, 68, 0.4);
+}
+.myfamily-form .select-location .review-details ul li:first-child {
+    padding-right: 20px;
+}
+.myfamily-form .select-location .review-details ul li:last-child {
+    padding-right: 0px;
+}
+.myfamily-form .select-location .review-details ul li.current span.mobile {
+    color: #444;
+}
+.myfamily-form .select-location .review-details ul li.current::before {
+    content: "";
+    position: absolute;
+    background: url(../images/form-view/selected-tick.png) no-repeat;
+    width: 21px;
+    height: 21px;
+    top: 0px;
+    left: 0px;
+}
+.myfamily-form .select-location .review-details ul li::before {
+    content: "";
+    position: absolute;
+    background: url(../images/form-view/unselected-tick.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    top: 0px;
+    left: 0px;
+}
+.myfamily-form .asthma-action.view {
+    padding: 26px 6px;
+}
+.select-location .state-country.camp-operator {
+    border-bottom: 1px solid rgba(68, 68, 68, 0.25);
+}
+.select-location .back-family.down {
+    padding-top: 30px;
+}
+.select-location .camp-operator .pescriber-approval label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #999999;
+    display: block;
+    margin-bottom: 18px;
+}
+.select-location .camp-operator .pescriber-approval .col-ff-8 {
+    width: 64%;
+    float: left;
+    margin-bottom: 30px;
+}
+.select-location .camp-operator .pescriber-approval .col-ff-2 {
+    width: 16%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.select-location .camp-operator .pescriber-approval .col-ff-4 {
+    margin-bottom: 30px;
+}
+.select-location .camp-operator .pescriber-approval input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    padding: 10px 21px 11px 20px;
+    border: none;
+    width: -webkit-fill-available;
+}
+.myfamily-form .select-location .last-stage a.complete-form {
+    margin-top: 30px;
+}
+.myfamily-form .select-location .last-stage a.complete-form img {
+    margin-right: 4px;
+}
+.select-location.view-form .state-country {
+    padding: 26px 0px;
+}
+.select-location.view-form .state-country p.request {
+    padding-left: 46px;
+    padding-right: 46px;
+}
+.select-location.view-form .dynamic-button {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid #d0d0d0;
+}
+.select-location.view-form .dynamic-button img {
+    margin-right: 4px;
+}
+span#school_button {
+    float: right;
+    display: none;
+}
+/*view-form*/
+
+/*school-popup*/
+.school-popup .modal-wrapper {
+    padding: 25px 33px;
+    border-radius: 3px;
+    width: 370px;
+    box-shadow: 0px 0px 2px 2px #cccccc73;
+}
+.school-popup .col-ff-12 {
+    display: inline-block;
+    width: 100%;
+}
+.school-popup .col-ff-12 label {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #999999;
+    display: block;
+    margin-bottom: 18px;
+}
+.school-popup .col-ff-12 input {
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    font-family: "poppinssemibold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    padding: 10px 21px 11px 20px;
+    border: none;
+    width: -webkit-fill-available;
+}
+.school-popup .col-ff-12 button {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    background: #706c61;
+    border-radius: 7px;
+    padding: 6px 12px 6px 13px;
+    text-decoration: none;
+    margin-top: 11px;
+}
+
+.modal {
+    position: absolute;
+    z-index: 10000; /* 1 */
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.modal.is-visible {
+    visibility: visible;
+}
+
+.modal-overlay {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 0%, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s linear 0.3s, opacity 0.3s;
+    transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+
+.modal.is-visible .modal-overlay {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.modal-wrapper {
+    position: absolute;
+    z-index: 9999;
+    top: 6em;
+    left: 50%;
+    width: 32em;
+    margin-left: -16em;
+    background-color: #fff;
+    box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+}
+
+.modal-transition {
+    -webkit-transition: all 0.3s 0.12s;
+    transition: all 0.3s 0.12s;
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
+    opacity: 0;
+}
+
+.modal.is-visible .modal-transition {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.modal-header,
+.modal-content {
+    padding: 1em;
+}
+
+.modal-header {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    color: #aaa;
+    background: none;
+    border: 0;
+}
+
+.modal-close:hover {
+    color: #777;
+}
+
+.modal-heading {
+    font-size: 1.125em;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.modal-content > *:first-child {
+    margin-top: 0;
+}
+
+.modal-content > *:last-child {
+    margin-bottom: 0;
+}
+/*school-popup*/
